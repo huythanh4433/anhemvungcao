@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biểu mẫu đăng ký</title>
+</head>
+<body>
+    <h2>Biểu mẫu đăng ký</h2>
+    <form action="#" method="post">
+        <label for="hoTen">Họ và tên:</label><br>
+        <input type="text" id="hoTen" name="hoTen" required><br><br>
+
+        <label for="lop">Lớp:</label><br>
+        <input type="text" id="lop" name="lop" required><br><br>
+
+        <label for="gioiTinh">Giới tính:</label><br>
+        <input type="radio" id="nam" name="gioiTinh" value="Nam" required>
+        <label for="nam">Nam</label>
+        <input type="radio" id="nu" name="gioiTinh" value="Nữ" required>
+        <label for="nu">Nữ</label><br><br>
+
+        <label for="ngaySinh">Ngày tháng năm sinh:</label><br>
+        <input type="date" id="ngaySinh" name="ngaySinh" required><br><br>
+
+        <label for="club">Câu lạc bộ muốn tham gia:</label><br>
+        <select id="club" name="club" required>
+            <option value="Bóng đá">Bóng đá</option>
+            <option value="Bóng chuyền">Bóng chuyền</option>
+            <option value="Cầu lông">Cầu lông</option>
+            <option value="Nhạc cụ">Nhạc cụ</option>
+            <option value="Tiếng Anh">Tiếng Anh</option>
+            <option value="Truyền thông">Truyền thông</option>
+        </select><br><br>
+
+        <input type="submit" value="Gửi">
+    </form>
+</body>
+</html>
